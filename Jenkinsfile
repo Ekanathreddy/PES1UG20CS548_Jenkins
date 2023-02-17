@@ -18,7 +18,7 @@ sh 'g++ pes1ug20cs548.cpp'
 stage( 'Test application') {
 steps{
 sh './a.out'
-sh 'failure ' 
+sh 'failure' 
 }
 }
 
