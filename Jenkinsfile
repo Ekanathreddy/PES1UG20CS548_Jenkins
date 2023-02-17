@@ -12,7 +12,7 @@ stages {
 
 stage( 'Build application') {
 steps {
-sh 'g++ pes1ug20cs548.cpp'
+sh 'g++ PES1UG20CS548.cpp'
 }
 }
 stage( 'Test application') {
